@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Shared\CssPartial.cshtml" />
+    <Content Remove="Views\Shared\FooterPartial.cshtml" />
+    <Content Remove="Views\Shared\HeadrePartial.cshtml" />
+    <Content Remove="Views\Shared\MetatagsPartial.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Views\Shared\CssPartial.cshtml" />
+    <Compile Include="Views\Shared\FooterPartial.cshtml" />
+    <Compile Include="Views\Shared\HeadrePartial.cshtml" />
+    <Compile Include="Views\Shared\MetatagsPartial.cshtml" />
+  </ItemGroup>
+
+</Project>
